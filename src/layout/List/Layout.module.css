@@ -1,0 +1,65 @@
+.layout {
+    display: flex;
+    height: 100vh;
+    min-width: 50vw;
+    /* position: relative; */
+}
+
+.sidebar {
+    padding: 30px;
+    border-right: 1px solid rgb(184, 183, 183);
+    display: flex;
+    flex-direction: column;
+}
+
+.user-img {
+    width: 15vh;
+}
+
+.exit {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: static; */
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link {
+    display: flex;
+    text-decoration: none;
+    color: var(--text-color);
+    justify-content: center;
+}
+
+.user {
+    margin-bottom: 30px;
+}
+
+.name {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--text-color);
+}
+
+.email {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: rgb(66, 66, 66);
+}
+
+.content {
+    padding: 30px;
+}
+
+

@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vw;
+}
+
+.header-search{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search-input{
+    width: 300px;
+}
+
+.filter-select {
+    width: 300px;
+}
+
+.pagination {
+    margin-top: auto;
+    display: flex;
+    /* align-items: end; */
+    position: fixed;
+    gap: 10px;
+}
